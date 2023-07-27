@@ -14,6 +14,10 @@ demo tasks. More complex tasks will be included in the future.
 based on GCC. See comments in _setenv.sh_ for more details about download and installation.
 * _GNU Make_
 * _Qemu_ (version 1.3 or newer, older versions do not emulate the interrupt controller properly!)
+* Install ARM toolchain
+```shell
+$ sudo apt-get install gcc-arm-none-eabi
+```
 
 ## Build
 A convenience Bash script _setenv.sh_ is provided to set paths to toolchain's commands
